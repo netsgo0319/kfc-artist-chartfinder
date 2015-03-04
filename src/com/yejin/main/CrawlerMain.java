@@ -20,6 +20,7 @@ public class CrawlerMain {
 		int pageSize = 50;
 		int startIndex = 1;
 		String orderByType = "ISSUE_DATE";
+		String seryang = "love";
 
 		String no = null;
 		String songName = null;
