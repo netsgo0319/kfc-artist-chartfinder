@@ -20,6 +20,7 @@ public class SongVO {
 	private int week; 					// 주 
 	private int rankForWeek;			// 주간차트 - 순위에 없으면 0 
 	private String artist;				// 아티스트 
+	private String album;				// 앨범 이름 
 	private String albumType;			// 앨범 타입
 	private Date albumReleaseDate;		// 앨범 발매일 
 	private String albumGenre;			// 앨범 장르 
@@ -129,6 +130,12 @@ public class SongVO {
 	}
 	public void setArtist(String artist) {
 		this.artist = artist;
+	}
+	public String getAlbum() {
+		return album;
+	}
+	public void setAlbum(String album) {
+		this.album = album;
 	}
 	public String getAlbumType() {
 		return albumType;
